@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:sysscanner/homepage.dart';
 import 'dart:async';
 import 'package:sysscanner/main.dart';
-import 'package:sysscanner/scan.dart';
 import 'package:sysscanner/webview.dart';
 
 class SplashScreenPage extends StatefulWidget {

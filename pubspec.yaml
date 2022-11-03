@@ -34,7 +34,6 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  camera: ^8.9.7+1
   # A flutter plugin for scanning 2D barcodes and QRCodes via Camera.
   flutter_barcode_scanner: ^2.0.0
   webview_flutter: ^3.0.4

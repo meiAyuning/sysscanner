@@ -2,15 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-Future main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-
-  await Permission.camera.request();
-  await Permission.microphone.request();
-
-  runApp(WebViewPage());
-}
-
 class WebViewPage extends StatefulWidget {
   WebViewPage({Key? key}) : super(key: key);
 
@@ -30,6 +21,17 @@ class _WebViewPageState extends State<WebViewPage> {
         body: new WebView(
             initialUrl:
                 "https://presensipkl.smkniu.sch.id/mGvwLJfkc4zOJ7As9eEvA==/",
-            javascriptMode: JavascriptMode.unrestricted));
+            javascriptMode: JavascriptMode.unrestricted,
+            zoomEnabled: true,));
   }
 }
+
+// checkpermission_opencamera() async {
+//   var cameraStatus = await Permission.camera.status;
+//   var microphoneStatus = await Permission.microphone.status;
+
+//   print(cameraStatus);
+//   print(microphoneStatus);
+
+//   if (!cameraStatus.isGranted) await Permission.camera.request();
+// }

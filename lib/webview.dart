@@ -14,7 +14,7 @@ class _WebViewPageState extends State<WebViewPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Absensi Siswa'),
+          title: const Text('Absensi Kehadiran Siswa'),
           backgroundColor: Colors.blue,
           centerTitle: true,
         ),

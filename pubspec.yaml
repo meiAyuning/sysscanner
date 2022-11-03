@@ -38,6 +38,7 @@ dependencies:
   # A flutter plugin for scanning 2D barcodes and QRCodes via Camera.
   flutter_barcode_scanner: ^2.0.0
   webview_flutter: ^3.0.4
+  permission_handler: ^10.2.0
 
 dev_dependencies:
   flutter_test:

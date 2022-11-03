@@ -19,10 +19,10 @@ class _WebViewPageState extends State<WebViewPage> {
           centerTitle: true,
         ),
         body: new WebView(
-            initialUrl:
-                "https://presensipkl.smkniu.sch.id/mGvwLJfkc4zOJ7As9eEvA==/",
-            javascriptMode: JavascriptMode.unrestricted,
-            zoomEnabled: true,));
+          initialUrl:
+              "https://presensipkl.smkniu.sch.id/mGvwLJfkc4zOJ7As9eEvA==/",
+          javascriptMode: JavascriptMode.unrestricted,
+        ));
   }
 }
 

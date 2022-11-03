@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:sysscanner/splashscreen.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 void main() {
+  // var cameraStatus = await Permission.camera.status;
+  // var microphoneStatus = await Permission.microphone.status;
+
+  // print(cameraStatus);
+  // print(microphoneStatus);
+
+  // if (!cameraStatus.isGranted) await Permission.camera.request();
   runApp(const MyApp());
 }
 

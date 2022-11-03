@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
@@ -12,10 +14,9 @@ class _WebViewPageState extends State<WebViewPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: new WebView(
-          initialUrl:
-              "https://presensipkl.smkniu.sch.id/mGvwLJfkc4zOJ7As9eEvA==/",
-          javascriptMode: JavascriptMode.unrestricted),
-    );
+        body: new WebView(
+            initialUrl:
+                "https://presensipkl.smkniu.sch.id/mGvwLJfkc4zOJ7As9eEvA==/",
+            javascriptMode: JavascriptMode.unrestricted));
   }
 }
